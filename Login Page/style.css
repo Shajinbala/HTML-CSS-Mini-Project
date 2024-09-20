@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.container{
+    background-color: aliceblue;
+    color:rgb(16, 130, 237);
+    height: 450px;
+    width: 450px;
+    border-radius: 10px;
+    padding: 100px;
+}
+.brand-title{
+    color:rgb(8,151,239) ;
+}
+img{
+    background: url(../image/user-account-management-logo-user-icon-11562867145a56rus2zwu.png);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+.inputs{
+    text-align: center;
+}
+input,button,label{
+    display: block;
+    width: 100%;
+    border: none;
+}
+input{
+    padding: 10px;
+    border-radius: 50px;
+    height: 40px;
+    box-shadow: 10px 15px 5px grey;
+    margin-bottom: 15px;
+}
+button{
+    margin-left: 10px;
+    background-color:rgb(16, 130, 237);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    box-shadow: 10px 15px 5px grey;
+    cursor: pointer;
+}
+
